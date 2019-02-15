@@ -50,7 +50,7 @@ function juego(){
         zombie.css("width", ancho.toString()+"px");
         zombie.css("height", ancho.toString()+"px");
         zombie.fadeToggle( "fast");
-        zombie.attr("src","file:///C:/Users/ezequ/OneDrive/Escritorio/websEjemplos/zombies/img/"+imagen+".png");
+        zombie.attr("src","https://raw.githubusercontent.com/ezequielramirez87/juego-zombies/master/img/"+imagen+".png");
         sonido(rujido);
     });
 }
