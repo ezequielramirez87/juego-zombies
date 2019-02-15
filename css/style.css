@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(../img/mira.png), auto;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+#fondo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+#zombie{
+    height: 60%;
+    margin: 200px 0px 0px 300px;
+    position: absolute;
+}
+#disparo{
+    display: none;
+}
+#titulo{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 0px auto;
+}
+h1{
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: bold; 
+    font-size: 100px; 
+    color:#610B0B; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+#musica{
+    display: none;
+}
+#zombieSonido{
+    display: none;
+}
